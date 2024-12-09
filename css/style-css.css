@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif!important;
+    background-color: var(--Pale-blue)!important;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    height: 97vh;
+    display: grid;
+    place-items: center;
+}
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    
+}
+.order-sammery {
+    box-shadow: 0 22px 25px hsl(223deg 47% 23% / 13%);
+}
+.order-sammery .img-order {
+    height: 169px;
+    background-image: url("../images/illustration-hero.svg");
+    background-size: cover;
+}
+.order-sammery h1 {
+    color: var(--Dark-blue);
+    font-weight: 900;
+    font-size: 24px;
+    padding-top: 35px;
+}
+.order-sammery p {
+    color: var(--Desaturated-blue);
+    font-size: 13px;
+    width: 250px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.music-order {
+    background-color: hsl(225deg 100% 94% / 35%);
+    width: 280px;
+    margin: 0 auto;
+}
+.music-order .order-info span:first-child {
+    color: var(--Dark-blue);
+    font-size: 13px;
+    font-weight: 900;
+}
+.order-info img {
+    width: 40px;
+}
+.music-order .order-info .price {
+    color: var(--Desaturated-blue);
+    font-size: 13px;
+}
+.music-order .change {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--Bright-blue);
+}
+.order-sammery .pay {
+    background-color: var(--Bright-blue);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 5rem;
+    box-shadow: 0 15px 20px hsl(245deg 75% 52% / 30%);
+}
+.order-sammery .cancel {
+    font-size: 12px;
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+}
